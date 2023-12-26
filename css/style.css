@@ -5091,6 +5091,19 @@ iframe {
   }
 }
 
+body::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #08a372;
+  outline: 1px solid #2f1b12;
+}
+
 .footer-1 .widget_nav_menu ul li {
   display: inline-block;
   padding: 0;
